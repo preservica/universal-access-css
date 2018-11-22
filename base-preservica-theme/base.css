@@ -1,0 +1,550 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		/*font: inherit;*/
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+
+.flexslider ul {list-style-type: none!important; margin-bottom: 0px!important; }
+
+body {
+	font-size: 0.9em; line-height: 1.6em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100; overflow: hidden; padding-top: 0px;
+}
+
+.thin_padding h1, .thin_padding h2, .thin_padding h3 {}
+
+.hidden { display: none }
+
+/* #Typography
+================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Alegreya Sans', sans-serif;
+font-weight : 700;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+font-weight : inherit;
+}
+
+h1 {
+font-size : 2.7em;
+line-height : 1.1em;
+font-weight: 700;
+text-align: left;
+margin-bottom: 10px;
+}
+
+
+h2, h1.entry-title, .browse h1 {
+	text-align: left;
+	font-size : 1.7em;
+	line-height : 1.4em;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.title-container { }
+h1.page-title { }
+p.page-subtitle {
+	margin-top: -6px;
+	font-size: 75%;
+}
+
+.entry.intro {font-size: 1.3em; line-height: 1.6em;}
+
+h2#comments {border-top: 1px dotted #999; margin-top: 20px;}
+
+h3 {
+font-size : 1.4em;
+line-height : 1.2em;
+font-weight: 300;
+margin-bottom: 5px;
+}
+
+h1.post-title, h3.loop-title { margin-bottom: -3px; }
+
+h4 {
+font-size : 1.3em;
+line-height : 1.2em;
+font-weight: 300;
+margin-bottom: 5px;
+
+}
+h5 {
+font-size : 1.2em;
+line-height :1.2em;
+font-weight: 500;
+margin-bottom: 5px;
+
+}
+
+h6 {
+font-size : 1.1em;
+line-height : 1.2em;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+p {margin : 0 0 0.8em 0; line-height: 1.6em; font-weight: 300; }
+
+h3 a {text-decoration: none!important;}
+
+p img {
+margin : 0;
+}
+em {
+font-style : italic;
+}
+strong {
+font-weight : bold;
+}
+small {
+font-size : 80%;
+}
+
+/* Blockquote styles. Not used, unless a custom post adds them. */
+blockquote h1, blockquote h2, blockquote h3, blockquote h4, blockquote h5 {text-align: center;
+  margin: 0 auto; width: 30%; line-height: 1.1em; display: block; font-style: normal; margin-bottom: 15px; padding-bottom: 15px}
+
+blockquote, blockquote p {
+font-size: 1em; line-height: 1.6em; color: #666; padding-left: 70px;  padding-right: 70px; font-style: italic; }
+
+blockquote {
+	border-radius: 10px;
+	margin: 30px 10%;
+	background-color: #fff;
+	padding : 22px 0px 12px 0px;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 1.2em;
+	border: 1px solid #eee;
+}
+
+blockquote p:before {
+  font-style: normal;
+  content: "\201C";
+  margin-top: 40px;
+  margin-left: -50px;
+  float: left;
+  color: #ddd;
+  font-size: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+blockquote cite {
+display : block;
+font-size : 1.1em;
+color : #666;
+}
+blockquote cite:before {
+content : "\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+color : #666;
+}
+
+hr {
+border : 1px #aaa dotted;
+border-width : 0.1em 0 0;
+clear : both;
+/*margin : 0% 1% 2% 1%;*/
+height : 0;
+}
+
+
+/* #Links
+================================================== */
+
+a, a:visited {
+	text-decoration : none;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+a:hover, a:focus {
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+a:visited div {
+    border:inherit;
+}
+
+p a, p a:visited {
+line-height : inherit;
+}
+
+a.subtitle-link, a.metadata-link { font-weight: bold; }
+
+
+/* #Lists
+================================================== */
+
+ul, ol {
+margin-bottom : 0px; list-style : none; list-style-position: outside; }
+ul {
+list-style : disc; list-style-position: outside;}
+
+ul#filter-list { list-style-type: none; margin-bottom: 5px; }
+#facet-form ul { list-style-type: none; margin-bottom: 15px; }
+
+ol {
+list-style : decimal;
+}
+ol, ul.square, ul.circle, ul.disc {
+margin-left : 0%;
+}
+ul.square {
+list-style : square;
+}
+ul.circle {
+list-style : circle;
+}
+ul.disc {
+list-style : disc;
+}
+
+.entry ol li {text-indent: 0px;
+margin-left: 25px; line-height : 1.4em;
+margin-bottom : 1%;}
+
+.entry ul li {text-indent: -15px;
+margin-left: 15px; line-height : 1.4em;
+margin-bottom : 1%;}
+ul ul, ul ol, ol ol, ol ul {
+margin : 1.3% 0 0% 7%;
+}
+
+ul.gform_fields li { text-indent: 0px; }
+
+.entry ul {list-style-position: inside;}
+.entry ul, .entry ol {margin-bottom: 25px;}
+
+ul ul li, ul ol li, ol ol li, ol ul li {
+margin-bottom : 0%;
+}
+li {
+line-height : 1.6em;
+margin-bottom : 0%;
+}
+ul.large li {
+line-height : 1.6em;
+}
+li p {
+line-height : 1.6em;
+}
+
+/* #Images
+================================================== */
+
+img.scale-with-grid {
+max-width : 100%;
+height : auto;
+}
+
+.alignnone {
+    margin: 0px 5px 5px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 0px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 0px 0 10px 10px;
+}
+
+.alignleft {
+    float: left;
+    margin: 0px 10px 10px 0;
+}
+
+.homefeaturedalign {
+    float: right;
+}
+
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 0px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 0px 0px 10px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 0px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+
+
+/* #Buttons
+================================================== */
+
+	.button,
+	button,
+	input.form-control,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	input[type="password"],
+	.button:active,
+	button:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	input[type="button"]:active, .button:visited,
+	button:visited,
+	input[type="submit"]:visited,
+	input[type="reset"]:visited,
+	input[type="button"]:visited {
+	    -webkit-appearance: none;
+		box-sizing: border-box;
+		border: 0px;
+		border-radius: 5px; 
+		display: inline-block;
+		font-size: 13px;
+		font-weight: normal;
+		text-decoration: none;
+		cursor: pointer;
+		margin-bottom: 0px;
+		line-height: normal;
+		padding: 12px 16px 10px 16px;
+		text-transform: uppercase;
+		-moz-transition: all 0.2s linear;
+	    -webkit-transition: all 0.2s linear;
+	    -o-transition: all 0.2s linear;
+	    transition: all 0.2s linear;
+	}
+
+	input.form-control { text-transform : none; }
+	
+	.browse_archive { margin-right: 5px; }
+	
+	.button:hover,
+	button:hover,
+	input:hover,
+	input.form-control:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	input[type="password"]:hover {
+		-moz-transition: all 0.2s linear;
+	   -webkit-transition: all 0.2s linear;
+	   -o-transition: all 0.2s linear;
+	   transition: all 0.2s linear;
+	   }
+
+	   .filter.button { }
+	   .filter-delete { color: red; font-weight: bold; }
+
+		.reveal a { background-color: #444 ; border-radius: 5px; padding: 10px; color: #fff; margin-top: 10px; float: right;  margin-bottom: 20px;}
+		
+		.reveal a:hover { background-color: #d41323 ;}
+	
+	.button.full-width,
+	button.full-width,
+	input[type="submit"].full-width,
+	input[type="reset"].full-width,
+	input[type="button"].full-width {
+		width: 99%;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		text-align: center; }
+
+	/* Fix for odd Mozilla border & padding issues */
+	button::-moz-focus-inner,
+	input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+	}
+
+/* #Forms
+================================================== */
+
+form {
+margin-bottom : 0em;
+}
+fieldset {
+margin-bottom : 0em;
+}
+
+	.login-panel { background: url('images/login-image.jpg') no-repeat left center; background-size: cover; border-radius: 10px; padding: 70px 20px; }	/* The default background colour is set by the new-primary-background style */
+	
+   input.form-control, .login-panel input[type="submit"] { margin-top: 0px; }
+   input.form-control { width: 60%; }
+   
+   @media only screen and (max-width: 479px) {
+	      input.form-control { width: 100%; }
+	}
+
+   .login-panel tr.row_spacer td { padding-bottom: 10px; }
+   .loginform table { width: 100%; }
+   .loginform td.login_col_1 { width: 100px; min-width: 100px; padding-right: 10px; }
+   .loginform td.login_col_2 { width: 80%; }
+
+form.search { height: 39px; border-radius: 5px; float: right; }
+form.search label {display: none; }
+
+form.search input {
+    padding: 1.1% 0% 1.1% 2%;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px 0px 0px 5px;
+    font: 16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    height: 38px;
+    width: 220px;
+	box-sizing: border-box;
+	position: relative;
+	top: -2px;
+	-webkit-appearance: none;
+}
+
+.top-meta-nav .button { margin-top: 0px; }
+
+select {
+padding : 0;
+box-shadow : 0 0 0.5% rgba(0, 0, 0, 0.2);
+}
+textarea {
+min-height : 10%;
+}
+label, legend {
+display : block;
+font-weight : normal!important;
+font-size : 1.0em;
+}
+select {
+width : 20%;
+}
+input[type="checkbox"] {
+display : inline;
+}
+
+label span, legend span {
+font-weight : normal;
+font-size : inherit;
+}
+
+
+
+/* #Misc
+================================================== */
+
+.remove-bottom {
+margin-bottom : 0 !important ;
+}
+.half-bottom {
+margin-bottom : 7% !important ;
+}
+.add-bottom {
+margin-bottom : 7% !important ;
+}
+
+.error { color: #d80000; }
+img.thumbnail { background-color: white; }
