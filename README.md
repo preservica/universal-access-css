@@ -16,6 +16,8 @@ These css files can be used to understand how the theme is controlled by the sty
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
+css files contributed shoud contain comments explaining what aspect of the WordPress site are changed by deploying the specific css file
+
 ## Deployment
 
 Simply download the css file and upload it on your Preservica Universal Access site via the WordPress Dashboard (Appearance > Customize > CSS > Select file).
