@@ -1,6 +1,6 @@
 # universal-access-css
 
-This project contain examples of Cascading Style Sheets (.css) files that can be used to change the look and feel of the Preservica Universal Access WordPress site.
+Examples of Cascading Style Sheets (.css) files that can be used to change the look and feel of the Preservica Universal Access WordPress site.
 
 ## Getting started
 
