@@ -39,4 +39,4 @@ This project has adopted the [Contributor Covenant Code of Conduct](https://gith
 
 ## Licensing
 
-This project is licensed under the terms of the MIT license. See LICENSE for license information.
+This project is licensed under the terms of the MIT license. 
