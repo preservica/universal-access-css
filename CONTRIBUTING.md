@@ -6,22 +6,6 @@ Following these guidelines helps us assess your changes faster and makes it easi
 
 There are many ways to contribute, from submitting new code or configuration files, making improvements to existing code.
 
-## Submitting bugs
-
-If you find a bug in the Preservica software or Preservica API, please do NOT open an issue.
-Email support@preservica.com (if you are a customer) or partnersupport@preservica.com (if you are a partner) instead.
-
-
-## Submitting enhancement ideas
-
-Similar to submitting bugs, you are welcome to submit ideas for enhancements or new features in the [Preservica User Group forum] (https://usergroup.preservica.com/forums/forum/discussions/)
-This forum is closely monitored by our Product Manager.
-
-Please feel free also to use the
-[Preservica User Group forum](https://usergroup.preservica.com/forums/forum/discussions/) as a space for
-gathering and collaborating on ideas. If you are not already registered on the User Group portal, the registration process only takes a minute.
-If you encounter issues while trying to register, please email support@preservica.com (if you are a customer) or partnersupport@preservica.com (if you are a partner)
-
 ## Submitting code 
 
 To contribute, send a pull request. For small changes, such as fixing a typo or adding a link, you can use the [GitHub Edit Button](https://blog.github.com/2011-04-26-forking-with-the-edit-button/). 
@@ -33,6 +17,21 @@ For larger changes:
 4. [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/), answering any questions in the pull request form.
 
 Before you send a pull request, please be sure that you're working from the latest source on the **master** branch.
+
+## Submitting bugs
+
+If you find a bug in the Preservica software or Preservica API, please do NOT open an issue.
+Email support@preservica.com (if you are a customer) or partnersupport@preservica.com (if you are a partner) instead.
+
+## Submitting enhancement ideas
+
+Similar to submitting bugs, you are welcome to submit ideas for enhancements or new features in the [Preservica User Group forum] (https://usergroup.preservica.com/forums/forum/discussions/)
+This forum is closely monitored by our Product Manager.
+
+Please feel free also to use the
+[Preservica User Group forum](https://usergroup.preservica.com/forums/forum/discussions/) as a space for
+gathering and collaborating on ideas. If you are not already registered on the User Group portal, the registration process only takes a minute.
+If you encounter issues while trying to register, please email support@preservica.com (if you are a customer) or partnersupport@preservica.com (if you are a partner)
 
 ## Code of conduct
 
